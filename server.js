@@ -1,9 +1,10 @@
-import app from './app.js';
+//server file
 import { connectToDb } from './config/database.js';
 import cloudinary from 'cloudinary';
 import Razorpay from 'razorpay';
 import NodeCron from "node-cron";
 import stats from './models/Stats.modal.js';
+import app from './app.js';
 
 const PORT = process.env.PORT|| 8080;
 
